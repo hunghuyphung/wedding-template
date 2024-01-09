@@ -227,9 +227,11 @@ a {
 #nav {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     z-index: 1;
     background-color: #fff;
+    opacity: 0.75;
 }
 
 #modal {
