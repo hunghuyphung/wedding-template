@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, button, input {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+a {
+    color: #000;
+}
+
+.h-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.h-input {
+    display: block;
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.display-container {
+    position: relative;
+}
+
+.display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-flex {
+    display: flex;
+}
+
+.width-980 {
+    width: 980px;
+    max-width: 100%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.bc-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.bc-white {
+    background-color: #fff;
+    color: #000;
+}
+
+.bc-pink {
+    background-color: #ffdddd;
+}
+
+.bc-red {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.bc-green {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-grey {
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-64 {
+    font-size: 64px;
+}
+
+.letter-spacing-4 {
+    letter-spacing: 4px;
+}
+
+.line-height-2 {
+    line-height: 2;
+}
+
+.gray-scale {
+    filter: grayscale(50%);
+}
+
+.none-decoration {
+    text-decoration: none;
+}
+
+.border-radius-4 {
+    border-radius: 4px;
+}
+
+.border-radius-8 {
+    border-radius: 8px;
+}
+
+.hover-gray:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.padding-0-16 {
+    padding: 0 16px;
+}
+
+.padding-8-16 {
+    padding: 8px 16px;
+}
+
+.padding-12-24 {
+    padding: 12px 24px;
+}
+
+.padding-16-0 {
+    padding: 16px 0;
+}
+
+.padding-64-16 {
+    padding: 64px 16px;
+}
+
+.margin-15-0 {
+    margin: 15px 0;
+}
+
+.margin-18-0 {
+    margin: 18px 0;
+}
+
+.margin-24-0 {
+    margin: 24px 0;
+}
+
+.margin-32-0 {
+    margin: 32px 0;
+}
+
+.margin-64-0 {
+    margin: 64px 0;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+#header {
+    background: #fff url(../imgs/wedding_couple.jpg) no-repeat center center;
+    background-size: cover;
+    height: 729.6px;
+    min-height: 100%;
+}
+
+#img-large-1 {
+    background: #fff url(../imgs/flowers.jpg) no-repeat center center;
+    background-size: cover;
+    height: 729.6px;
+    min-height: 100%;
+}
+
+#rsvp {
+    padding: 8px 60px;
+    background-color: #f44336;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 24px;
+    line-height: 2;
+}
+
+#rsvp:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    padding-top: 100px;
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+    max-width: 600px;
+    padding: 32px;
+    background-color: #fff;
+    animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0);
+    } to {
+        transform: scale(1);
+    }
+}

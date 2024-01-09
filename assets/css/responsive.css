@@ -1,0 +1,33 @@
+
+@media (max-width: 600px) {
+    .hide-small {
+        display: none;
+    }
+
+    .flex-column-small {
+        flex-direction: column;
+    }
+
+    .width-100-small {
+        width: 100%;
+    }
+
+    #modal {
+        padding-top: 50px;
+    }
+
+    #modal-content {
+        width: auto;
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    #modal {
+        padding-top: 50px;
+    }
+
+    #modal-content {
+        width: 500px;
+    }
+}
